@@ -7,7 +7,7 @@ if __name__ == '__main__':
     pokeAPI_scraper.generate_folders()
 
     # Downloads Pokemon Data for all Pokemon forms (if uncommented)
-    # pokeAPI_scraper.download_all_pokemon()
+    # okeAPI_scraper.download_all_pokemon()
 
     # Downloads Species Data for all Pokemon Species (if uncommented)
     # pokeAPI_scraper.download_all_species()
@@ -16,5 +16,3 @@ if __name__ == '__main__':
     # sprites) (if uncommented)
     # pokeAPI_scraper.download_all_pokemon_sprites()
 
-    name = 'Rhydon'
-    scraped_access.access(name)

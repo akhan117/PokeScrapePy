@@ -337,17 +337,16 @@ def generate_folders():
     if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Diamond Pearl/'):
         os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Diamond Pearl/')
 
-    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/ Heartgold Soulsilver/'):
+    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Heartgold Soulsilver/'):
         os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Heartgold Soulsilver/')
 
-    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/'
-                          'Heartgold Soulsilver/'):
-        os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Heartgold Soulsilver/')
+    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Platinum/'):
+        os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 4/Platinum')
 
     if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 5/Black White/'):
         os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 5/Black White/')
 
-    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 5/ Black White/Animated/'):
+    if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 5/Black White/Animated/'):
         os.makedirs('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 5/Black White/Animated/')
 
     if not os.path.exists('PokeAPI Data/Sprites/Pokemon Sprites/Versions/Generation 6/Omegaruby Alphasapphire/'):

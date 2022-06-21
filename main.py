@@ -1,6 +1,7 @@
-import pokeAPI
 import json
-import data_access
+from Scripts import pokeAPI_scraper
+from Scripts import scraped_access
+
 
 if __name__ == '__main__':
     # Downloads Pokemon Data for all Pokemon forms
@@ -11,9 +12,9 @@ if __name__ == '__main__':
 
     # Download Official Artwork + Home Sprites + Maingame sprites etc. Takes a very long time! (Especially the main game
     # sprites)
-    pokeAPI.downloadAllSprites();
+    # pokeAPI.downloadAllSprites()
 
-    # name = 'Rhydon'
-    # data_access.access(name)
+    name = 'Rhydon'
+    scraped_access.access(name)
 
 
